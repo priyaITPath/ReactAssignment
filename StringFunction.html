@@ -1,0 +1,47 @@
+<html>
+    <body>
+        <script>
+            //Remove the space 
+            let string = "hello there, how are you";
+            console.log(`Remove the space`);
+            console.log(`Before string : `+string);
+            let newString="";
+            for(let i of string)
+            {
+                if(i !=" ")
+                {
+                    newString +=i;
+                }
+            }
+            console.log(`After Remove Space: `+newString);
+            //replace string
+            console.log(`Replace the string`);
+            let str = " hello there , how are you ";
+            console.log(`Before:`,str);
+            let newStr = str.replace('there','priya');
+            console.log(`After:`,newStr);
+            //find index of particular string
+            console.log(`Find Index of particular String`);
+            console.log(`String: hello there , how are you`);
+            var myString = "hello there , how are you";
+            var NewStr = "";
+            var count = 0;
+            for(let x of myString)
+            {
+                if(x=="a")
+                {
+                    console.log(`index of are is: `+count);
+                    break;
+                }
+                count+=1;
+            }
+            //concatination of string
+            console.log(`Concatination of String`);
+            let myString1 ="hello there , how are you";
+            console.log(myString1);
+            console.log(myString1+ " " + "abc");
+            
+
+        </script>
+    </body>
+</html>
