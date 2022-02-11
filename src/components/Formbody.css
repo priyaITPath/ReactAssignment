@@ -1,0 +1,29 @@
+*{
+    background-color: rgb(243, 232, 186);
+}
+
+#submit{
+  margin-left: 130px;
+   margin-top: 20px;
+   padding: 5px;
+    background-color:rgb(150, 140, 140);
+    font-weight:bold;
+   border-radius: 4px;
+}
+
+input{
+    background-color: rgb(233, 215, 215);
+    margin-left: -55px;
+    border-radius: 5px;   
+}
+
+label{
+     margin-left: 30px; 
+    font-weight: bold;
+}
+
+table{
+    background-color:rgb(190, 158, 158);
+    
+}
+
