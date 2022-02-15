@@ -40,7 +40,7 @@ const [records, setRecords] = useState(false);
       setRecords(true);
     }else{
       alert("Please Fill All The Details Given Below");
-      setRecords(true);
+      setRecords(false);
     }
   };
 
